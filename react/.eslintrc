@@ -1,0 +1,56 @@
+{
+  "extends": "plugin:react/recommended",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "jsx-quotes": "warn",
+    "react/display-name": "off",
+    "react/jsx-pascal-case": "warn",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-no-undef": "error",
+    "react/no-danger": "off",
+    "react/no-deprecated": "off",
+    "react/no-did-mount-set-state": "warn",
+    "react/no-did-update-set-state": "warn",
+    "react/no-direct-mutation-state": "warn",
+    "react/no-is-mounted": "warn",
+    "react/no-multi-comp": ["warn", {"ignoreStateless": true}],
+    "react/no-unknown-property": "warn",
+    "react/prop-types": ["warn", {
+      "ignore": ["className", "children", "style"]
+    }],
+    "react/react-in-jsx-scope": "warn",
+    "react/self-closing-comp": "warn",
+    "react/wrap-multilines": "warn",
+    "react/sort-comp": ["warn", {
+      "order": [
+        "displayName",
+        "propTypes",
+        "contextTypes",
+        "childContextTypes",
+        "mixins",
+        "statics",
+        "defaultProps",
+        "constructor",
+        "getDefaultProps",
+        "getInitialState",
+        "getChildContext",
+        "componentWillMount",
+        "componentDidMount",
+        "componentWillReceiveProps",
+        "shouldComponentUpdate",
+        "componentWillUpdate",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "/^on.+$/",
+        "/^handle.+$/",
+        "/^get.+$/",
+        "/^(?!render).+$/",
+        "/^render.+$/",
+        "render"
+      ]
+    }]
+  }
+}

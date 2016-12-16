@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-squarespace",
+  "description": "Eslint shareable configuration for Squarespace",
+  "version": "1.0.0-beta.0",
+  "author": "Squarespace",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/runTests.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Squarespace/eslint-config-squarespace.git"
+  },
+  "keywords": [
+    "code linter",
+    "code",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "lint",
+    "linter",
+    "quality",
+    "squarespace",
+    "style",
+    "grace",
+    "validate",
+    "verify"
+  ],
+  "peerDependencies": {
+    "eslint": ">=3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0",
+    "mocha": "^3.2.0"
+  }
+}

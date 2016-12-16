@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "./vanilla/.eslintrc",
+    "./react/.eslintrc"
+  ],
+  "rules": {
+    "comma-dangle": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "__DEV__": true
+  }
+}
