@@ -1,6 +1,6 @@
 # eslint-config-squarespace
 
-Provides the universal configuration for [eslint](https://github.com/eslint) at [Squarespace](www.squarespace.com).
+Provides the universal configuration for [eslint](https://github.com/eslint) at [Squarespace](https://www.squarespace.com).
 
 ## Installation
 
