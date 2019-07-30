@@ -1,6 +1,6 @@
 # eslint-config-squarespace
 
-Provides the [eslint](https://github.com/eslint) configuration for [Squarespace](https://www.squarespace.com) linting publicly available projects.
+Provides the [eslint](https://github.com/eslint) configuration for linting [Squarespace](https://www.squarespace.com) publicly available projects.
 For *internal* projects, use the namespaced package, @sqs/eslint-config-squarespace.
 
 ## Installation
