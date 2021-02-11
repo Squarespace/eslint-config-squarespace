@@ -1,10 +1,4 @@
-var vanilla = require('./vanilla');
-var react = require('./react');
-var eslintrc = JSON.parse(JSON.stringify(vanilla));
+var fs = require('fs');
+var path = require('path');
 
-eslintrc.plugins = react.plugins;
-Object.keys(react.rules).forEach(function assignRule(ruleId) {
-  eslintrc.rules[ruleId] = react.rules[ruleId];
-});
-
-module.exports = eslintrc;
+module.exports = JSON.parse(fs.readFileSync(path.join(__dirname, '.eslintrc')));
