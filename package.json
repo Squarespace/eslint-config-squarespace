@@ -37,7 +37,6 @@
     "@babel/eslint-parser": "^7.12.13",
     "chai": "^4.3.0",
     "eslint": "^7.19.0",
-    "eslint-plugin-react": "^6.8.0",
     "mocha": "^8.2.1"
   },
   "dependencies": {}
