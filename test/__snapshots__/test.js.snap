@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eslintConfig vanilla.bad.js 1`] = `24`;
+
+exports[`eslintConfig vanilla.good.js 1`] = `0`;
