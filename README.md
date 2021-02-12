@@ -5,7 +5,7 @@ Provides the [eslint](https://github.com/eslint) configuration for linting [Squa
 ## Installation
 
 ````sh
-$ npm install --save-dev eslint-config-squarespace @babel/eslint-parser @babel/core
+$ npm install --save-dev eslint-config-squarespace
 ````
 
 Then:
